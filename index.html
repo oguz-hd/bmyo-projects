@@ -5,31 +5,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EGE MYO</title>
-    <link rel="icon" href="EGElogo.png" type="image/png">
+    <link rel="icon" href="media/EGElogo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Ambient Background -->
     <div class="background-orb orb-1"></div>
     <div class="background-orb orb-2"></div>
 
     <header class="fade-in-up">
         <div class="container header-flex">
-            <img src="/media/EGElogo.png" alt="Ege Üniversitesi Logo" class="header-logo left-logo">
+            <img src="media/EGElogo.png" alt="Ege Üniversitesi Logo" class="header-logo left-logo">
             <div class="header-text">
                 <h1>BERGAMA MYO<br>PROJELER</h1>
             </div>
-            <img src="/media/MYOlogo.png" alt="Bergama MYO Logo" class="header-logo right-logo">
+            <img src="media/MYOlogo.png" alt="Bergama MYO Logo" class="header-logo right-logo">
         </div>
     </header>
 
     <div class="container">
         <div class="bento-grid">
 
-            <!-- Project 3: REST API -->
+            <div class="glass-card fade-in-up" style="animation-delay: 0.8s;">
+                <div class="card-icon grad-text-1">
+                    <i class="fa-brands fa-markdown"></i>
+                </div>
+                <div class="card-content">
+                    <h3>Markdown Kullanımı</h3>
+                    <p class="project-author">Hazırlayan: Oğuz Han Duran</p>
+                    <p>
+                        Markdown, metinleri biçimlendirmek için kullanılan hafif ve kolay okunabilir bir işaretleme
+                        dilidir. Bu rehber, başlıklar, listeler, kod blokları ve tablolar gibi temel yapıların nasıl
+                        oluşturulacağını detaylıca anlatmaktadır. GitHub üzerindeki projelerinizde README dosyalarını
+                        daha etkili ve düzenli hale getirmek için gerekli ipuçlarını içermektedir. Hem yeni başlayanlar
+                        hem de deneyimli geliştiriciler için pratik örnekler sunarak öğrenme sürecini hızlandırmayı
+                        hedefler. Açık kaynak dünyasında belgelerinizi standartlara uygun ve estetik bir şekilde sunmak
+                        için bu kaynağı kullanabilirsiniz.
+                    </p>
+                    <div class="button-group">
+                        <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
+                        <a href="https://github.com/oguz-hd/use-of-mark-down" target="_blank" class="card-btn"><i
+                                class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="https://github.com/oguz-hd" target="_blank" class="card-btn"><i
+                                class="fa-brands fa-github"></i> Geliştirici Profili</a>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                        alt="Markdown Proje Görseli">
+                </div>
+            </div>
+
+            <div class="glass-card fade-in-up" style="animation-delay: 0.85s;">
+                <div class="card-icon grad-text-3">
+                    <i class="fa-solid fa-file-code"></i>
+                </div>
+                <div class="card-content">
+                    <h3>YAML Kullanımı</h3>
+                    <p class="project-author">Hazırlayan: Oğuz Han Duran</p>
+                    <p>
+                        YAML, verilerin serileştirilmesi için kullanılan, insan tarafından kolayca okunabilen bir veri
+                        formatıdır. Bu rehber, dosya yapısı, sözdizimi kuralları ve anahtar-değer çiftleri gibi temel
+                        kavramları kapsamlı bir şekilde ele alır. Docker ve Kubernetes gibi modern devops araçlarında
+                        yapılandırma dosyaları oluştururken sıkça tercih edilen bir standarttır. Karmaşık
+                        konfigürasyonları basit ve anlaşılır bir hiyerarşi ile yönetmenize olanak tanır. Yazılım
+                        geliştirme süreçlerinizde veri transferi ve ayar yönetimi için güçlü ve esnek bir çözüm sunar.
+                    </p>
+                    <div class="button-group">
+                        <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
+                        <a href="https://github.com/oguz-hd/use-of-yaml-docker" target="_blank" class="card-btn"><i
+                                class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="https://github.com/oguz-hd" target="_blank" class="card-btn"><i
+                                class="fa-brands fa-github"></i> Geliştirici Profili</a>
+                    </div>
+                </div>
+                <div class="card-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+                        alt="YAML Proje Görseli">
+                </div>
+            </div>
+
             <div class="glass-card fade-in-up" style="animation-delay: 0.2s;">
                 <div class="card-icon grad-text-3">
                     <i class="fa-solid fa-server"></i>
@@ -43,9 +100,9 @@
                         alias. Iste perferendis ipsum nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum
                         necessitatibus, aliquam fugiat ratione harum enim mollitia?. </p>
                     <div class="button-group">
-                        <a href="#" class="card-btn"><i class="fa-solid fa-file-powerpoint"></i> Sunum</a>
                         <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
-                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> GitHub'da İncele</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -54,7 +111,6 @@
                 </div>
             </div>
 
-            <!-- Project 4: React Frontend -->
             <div class="glass-card fade-in-up" style="animation-delay: 0.3s;">
                 <div class="card-icon grad-text-1">
                     <i class="fa-brands fa-react"></i>
@@ -68,9 +124,9 @@
                         alias. Iste perferendis ipsum nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum
                         necessitatibus, aliquam fugiat ratione harum enim mollitia?.</p>
                     <div class="button-group">
-                        <a href="#" class="card-btn"><i class="fa-solid fa-file-powerpoint"></i> Sunum</a>
                         <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
-                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> GitHub'da İncele</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -79,7 +135,6 @@
                 </div>
             </div>
 
-            <!-- Project 5: Database -->
             <div class="glass-card fade-in-up" style="animation-delay: 0.4s;">
                 <div class="card-icon grad-text-2">
                     <i class="fa-solid fa-database"></i>
@@ -93,9 +148,9 @@
                         alias. Iste perferendis ipsum nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum
                         necessitatibus, aliquam fugiat ratione harum enim mollitia?. </p>
                     <div class="button-group">
-                        <a href="#" class="card-btn"><i class="fa-solid fa-file-powerpoint"></i> Sunum</a>
                         <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
-                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> GitHub'da İncele</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -104,7 +159,6 @@
                 </div>
             </div>
 
-            <!-- Project 6: Game Dev -->
             <div class="glass-card fade-in-up" style="animation-delay: 0.5s;">
                 <div class="card-icon grad-text-3">
                     <i class="fa-solid fa-gamepad"></i>
@@ -118,9 +172,9 @@
                         alias. Iste perferendis ipsum nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum
                         necessitatibus, aliquam fugiat ratione harum enim mollitia?.</p>
                     <div class="button-group">
-                        <a href="#" class="card-btn"><i class="fa-solid fa-file-powerpoint"></i> Sunum</a>
                         <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
-                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> GitHub'da İncele</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -129,7 +183,6 @@
                 </div>
             </div>
 
-            <!-- Project 7: Cryptology -->
             <div class="glass-card fade-in-up" style="animation-delay: 0.6s;">
                 <div class="card-icon grad-text-1">
                     <i class="fa-solid fa-lock"></i>
@@ -143,9 +196,9 @@
                         alias. Iste perferendis ipsum nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum
                         necessitatibus, aliquam fugiat ratione harum enim mollitia?..</p>
                     <div class="button-group">
-                        <a href="#" class="card-btn"><i class="fa-solid fa-file-powerpoint"></i> Sunum</a>
                         <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
-                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> GitHub'da İncele</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -153,6 +206,7 @@
                         alt="Kriptoloji Görseli">
                 </div>
             </div>
+
             <div class="glass-card fade-in-up" style="animation-delay: 0.1s;">
                 <div class="card-icon grad-text-2">
                     <i class="fa-brands fa-docker"></i>
@@ -167,15 +221,9 @@
                         nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum necessitatibus, aliquam fugiat
                         ratione harum enim mollitia?.</p>
                     <div class="button-group">
-                        <a href="#" class="card-btn">
-                            <i class="fa-solid fa-file-powerpoint"></i> Sunum
-                        </a>
-                        <a href="#" class="card-btn">
-                            <i class="fa-solid fa-code"></i> Kod Örneği
-                        </a>
-                        <a href="#" class="card-btn">
-                            <i class="fa-brands fa-github"></i> GitHub'da İncele
-                        </a>
+                        <a href="#" class="card-btn"><i class="fa-solid fa-code"></i> Kod Örneği</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Proje Linki</a>
+                        <a href="#" class="card-btn"><i class="fa-brands fa-github"></i> Geliştirici Profili</a>
                     </div>
                 </div>
                 <div class="card-image">
@@ -183,37 +231,6 @@
                         alt="Docker Proje Görseli">
                 </div>
             </div>
-            <!-- New Project: YAML & Markdown -->
-            <div class="glass-card fade-in-up" style="animation-delay: 0.7s;">
-                <div class="card-icon grad-text-3">
-                    <i class="fa-solid fa-file-code"></i>
-                </div>
-                <div class="card-content">
-                    <h3>YAML & Markdown Rehberi</h3>
-                    <p class="project-author">Hazırlayan: Oğuz & Kerem</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, velit alias. Iste perferendis ipsum
-                        nostrum quaerat non expedita. Libero, laborum. Nulla a dolorum necessitatibus, aliquam fugiat
-                        ratione harum enim mollitia?
-                    </p>
-                    <div class="button-group">
-                        <a href="#" class="card-btn">
-                            <i class="fa-solid fa-file-powerpoint"></i> Sunum
-                        </a>
-                        <a href="#" class="card-btn">
-                            <i class="fa-solid fa-code"></i> Kod Örneği
-                        </a>
-                        <a href="https://github.com/oguz-hd/yaml-markdown-rehberi" target="_blank" class="card-btn">
-                            <i class="fa-brands fa-github"></i> GitHub'da İncele
-                        </a>
-                    </div>
-                </div>
-                <div class="card-image">
-                    <img src="https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                        alt="Proje Görseli">
-                </div>
-            </div>
-
         </div>
     </div>
 

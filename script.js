@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-
     const observerOptions = {
         threshold: 0.1,
         rootMargin: "0px"
@@ -17,8 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const animatedElements = document.querySelectorAll('.fade-in-up');
     animatedElements.forEach(el => observer.observe(el));
 
-
-    // --- 3D Tilt Effect on Cards ---
     const cards = document.querySelectorAll('.glass-card');
 
     cards.forEach(card => {
@@ -30,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const midX = rect.width / 2;
             const midY = rect.height / 2;
 
-            // Moderate intensity for balanced feel
             const rotateX = ((y - midY) / midY) * -2.5;
             const rotateY = ((x - midX) / midX) * 2.5;
 
@@ -42,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // --- Parallax Background Effect ---
     document.addEventListener('mousemove', (e) => {
         const x = (window.innerWidth - e.pageX * 2) / 100;
         const y = (window.innerHeight - e.pageY * 2) / 100;
